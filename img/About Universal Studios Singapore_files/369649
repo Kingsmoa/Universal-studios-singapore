@@ -1,0 +1,44 @@
+
+(function () {
+    var scr = document.createElement('script');
+    var snippet = "var i = document.createElement('img');\
+            i.setAttribute('alt', '');\
+            i.setAttribute('src', 'https://ad.doubleclick.net/ddm/activity/src=14017957;type=track0;cat=heado00;qty=1;cost=0;u1=;u16=Content+Page;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;npa=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ord=orderID');\
+        i.setAttribute('height', '1');\
+        i.setAttribute('width', '1');\
+        i.setAttribute('style', 'display: none;');\
+        document.body.appendChild(i);\
+    ";
+
+    scr.type = 'text/javascript';
+    scr.async = true;
+    if (scr.textContent) {
+        scr.textContent = snippet;
+    } else {
+        scr.text = snippet;
+    }
+    document.getElementsByTagName('head')[0].appendChild(scr);
+})();
+(function () {var t=document.createElement('img');t.async=!0,t.width=1,t.height=1,t.style.display='none',t.src='https://secure.adnxs.com/px?id=1752459&t=1';document.body.appendChild(t)})();
+        (function () {var t=document.createElement('img');t.async=!0,t.width=1,t.height=1,t.style.display='none',t.src='https://secure.adnxs.com/seg?add=36222731&t=1';document.body.appendChild(t)})();
+
+(function () {
+    var scr = document.createElement('script');
+    var snippet = "var i = document.createElement('img');\
+i.setAttribute('alt', '');\
+i.setAttribute('height', '1');\
+i.setAttribute('width', '1');\
+i.setAttribute('style', 'display: none;');\
+i.setAttribute('src', 'https://cm.g.doubleclick.net/pixel?google_hm=M2IzMzc5MjAtNDhhZS1iOWM3LTY0YTgtOTBlMmExMTY0YzNj&google_nid=sojern_adh');\
+document.body.appendChild(i);\
+";
+
+    scr.type = 'text/javascript';
+    scr.async = true;
+    if (scr.textContent) {
+        scr.textContent = snippet;
+    } else {
+        scr.text = snippet;
+    }
+    document.getElementsByTagName('head')[0].appendChild(scr);
+})();
